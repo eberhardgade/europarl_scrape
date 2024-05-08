@@ -17,10 +17,10 @@ This is usually caused by unpredictable human interference with the europarl dat
     - ...
 
 Disagreement happened in about 1/3 of the speeches in about 3 random languages:
-![image of data frame](overview.png) "Image of Data frame")
+![image of data frame](overview.png) "(see overview_of_irregularities.csv)")
 
 It can be clearly seen that when this happens, then is likely to happen in parallel:
-![image of data frame](problems.png) "Image of Data frame")
+![image of data frame](problems.png) "(see unit_text.ipynb))")
 
 This could be used to determin relay translations.
 
@@ -29,4 +29,5 @@ This could be used to determin relay translations.
 I have been using the Python sequence matcher with whisper transcripts to find the corresponding 
 speeches. Therefore it was not important to have all languages agree 100% on the speech ordering.
 
-If I have a use case for exact 
+If I have a use case for exactly matching speeches, I may complete this. It should not take too long
+even if done by hand in the .csv files.
